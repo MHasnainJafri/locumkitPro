@@ -46,3 +46,4 @@ previous_code/
 /public/media
 *.log
 error_log
+storage/firebase-credentials.json
