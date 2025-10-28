@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-family: Source SansSerif Pro, Arial, sans-serif;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2rem;
+                background-color: #fff;
+                color: #000;
+            }
+
+            body > ul > li {
+                font-size: larger;
+            }
+
+            h2 {
+                font-size: larger;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                margin: 0;
+                padding: 0.5rem 0;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0 0 2rem;
+                padding: 0 0 0 1rem;
+                text-indent: -1rem;
+            }
+
+            .success:before {
+                color: #4e9a06;
+                content: '✓';
+                padding-right: 0.5rem;
+            }
+
+            .defect {
+                color: #a40000;
+            }
+
+            .defect:before {
+                color: #a40000;
+                content: '✗';
+                padding-right: 0.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Block User (Tests\Feature\BlockUser)</h2>
+        <ul>
+            <li class="success">Employer blocking of freelancer</li>
+        </ul>
+        <h2>Cancel Job Feedback (Tests\Feature\CancelJobFeedback)</h2>
+        <ul>
+            <li class="success">Freelancer cancel job feedback</li>
+            <li class="success">Employer cancel job feedback</li>
+            <li class="success">Feedback cancel job one week</li>
+        </ul>
+        <h2>Close Job (Tests\Feature\CloseJob)</h2>
+        <ul>
+            <li class="success">Closing an expired job</li>
+        </ul>
+        <h2>Distance Calculate (Tests\Feature\DistanceCalculate)</h2>
+        <ul>
+            <li class="success">Distance helper working</li>
+        </ul>
+        <h2>Freeze Job (Tests\Feature\FreezeJob)</h2>
+        <ul>
+            <li class="success">Job freeze test by creating new job and inviting freelancers. Then one freelancer freeze the job. Meenwhile second freelancer try to accept job and fails. Then after 15minutes job will be unfreeze. Then first freelancer try to freeze the job but unsuccessfull because he already freezed it. Then second freelancer accept the job.</li>
+        </ul>
+        <h2>Invite Locums Extended (Tests\Feature\InviteLocumsExtended)</h2>
+        <ul>
+            <li class="success">Trying to create different employers & freelancer and then creating and sending jobs in parallel to test system accuracy.</li>
+        </ul>
+        <h2>Invite Locums (Tests\Feature\InviteLocums)</h2>
+        <ul>
+            <li class="success">Invite locum for job and accept the job</li>
+        </ul>
+        <h2>Job Cancel (Tests\Feature\JobCancel)</h2>
+        <ul>
+            <li class="success">Job cancel</li>
+        </ul>
+        <h2>Job Day Expense (Tests\Feature\JobDayExpense)</h2>
+        <ul>
+            <li class="success">On job day expense</li>
+        </ul>
+        <h2>Job Feedback One Week (Tests\Feature\JobFeedbackOneWeek)</h2>
+        <ul>
+            <li class="success">Job feedback test. If user not submit feedback bye one week send feedback notification again to user. Take feedback from user and check if saved to database or not.</li>
+        </ul>
+        <h2>Job Feedback (Tests\Feature\JobFeedback)</h2>
+        <ul>
+            <li class="success">Feedback creation</li>
+        </ul>
+        <h2>Job On Same Day (Tests\Feature\JobOnSameDay)</h2>
+        <ul>
+            <li class="success">Job on same day test by posting and accepting job on same day.</li>
+        </ul>
+        <h2>Job Reminder (Tests\Feature\JobReminder)</h2>
+        <ul>
+            <li class="success">On day job reminders</li>
+        </ul>
+        <h2>Job Timeline (Tests\Feature\JobTimeline)</h2>
+        <ul>
+            <li class="success">Job timeline test by creating job with one timeline and testing it's behaviour with time.</li>
+            <li class="success">Job timeline test by creating job with two timelines and testing it's behaviour with time.</li>
+        </ul>
+        <h2>Locum Private Job (Tests\Feature\LocumPrivateJob)</h2>
+        <ul>
+            <li class="success">Private jobs creation and compeletion</li>
+        </ul>
+        <h2>Negotiate Job Rate (Tests\Feature\NegotiateJobRate)</h2>
+        <ul>
+            <li class="success">Freelancer negotiate for job</li>
+        </ul>
+        <h2>Pages (Tests\Feature\Pages)</h2>
+        <ul>
+            <li class="success">Example</li>
+        </ul>
+        <h2>Private User Job (Tests\Feature\PrivateUserJob)</h2>
+        <ul>
+            <li class="success">Employer private users flow</li>
+        </ul>
+        <h2>Private User (Tests\Feature\PrivateUser)</h2>
+        <ul>
+            <li class="success">Private user emails</li>
+        </ul>
+        <h2>Two Freelancer (Tests\Feature\TwoFreelancer)</h2>
+        <ul>
+            <li class="success">Employer need two freelancer on same date</li>
+        </ul>
+        <h2>Users Work Calender (Tests\Feature\UsersWorkCalender)</h2>
+        <ul>
+            <li class="success">Updating user work calendar</li>
+        </ul>
+    </body>
+</html>

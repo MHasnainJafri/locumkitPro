@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\laragon\www\locumkit-laravel\app\Helpers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=10.0.2" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=10.0.2" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=10.0.2" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">C:\laragon\www\locumkit-laravel\app</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Helpers</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FinanceHelper.php.html#19">App\Helpers\FinanceHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailChimpHelper.php.html#5">App\Helpers\MailChimpHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppNotificationHelper.php.html#10">App\Helpers\AppNotificationHelper</a></td><td class="text-right">11%</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#9">App\Helpers\PackageUpgradeHelper</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#11">App\Helpers\JobSmsHelper</a></td><td class="text-right">67%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#19">App\Helpers\JobMailHelper</a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="DistanceCalculateHelper.php.html#7">App\Helpers\DistanceCalculateHelper</a></td><td class="text-right">73%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FinanceHelper.php.html#19">App\Helpers\FinanceHelper</a></td><td class="text-right">8930</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#19">App\Helpers\JobMailHelper</a></td><td class="text-right">390</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#11">App\Helpers\JobSmsHelper</a></td><td class="text-right">277</td></tr>
+       <tr><td><a href="AppNotificationHelper.php.html#10">App\Helpers\AppNotificationHelper</a></td><td class="text-right">170</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#9">App\Helpers\PackageUpgradeHelper</a></td><td class="text-right">60</td></tr>
+       <tr><td><a href="MailChimpHelper.php.html#5">App\Helpers\MailChimpHelper</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="DistanceCalculateHelper.php.html#7">App\Helpers\DistanceCalculateHelper</a></td><td class="text-right">14</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AppNotificationHelper.php.html#73"><abbr title="App\Helpers\AppNotificationHelper::insert_notification_data">insert_notification_data</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppNotificationHelper.php.html#95"><abbr title="App\Helpers\AppNotificationHelper::deleteToken">deleteToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppNotificationHelper.php.html#100"><abbr title="App\Helpers\AppNotificationHelper::updateTokenStatus">updateTokenStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppNotificationHelper.php.html#107"><abbr title="App\Helpers\AppNotificationHelper::saveResultLog">saveResultLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DistanceCalculateHelper.php.html#83"><abbr title="App\Helpers\DistanceCalculateHelper::getDistanceFromAddress">getDistanceFromAddress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#23"><abbr title="App\Helpers\FinanceHelper::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#29"><abbr title="App\Helpers\FinanceHelper::get_chart_finance_data">get_chart_finance_data</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#149"><abbr title="App\Helpers\FinanceHelper::get_user_financial_year_start_month">get_user_financial_year_start_month</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#158"><abbr title="App\Helpers\FinanceHelper::get_user_finance_type">get_user_finance_type</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#166"><abbr title="App\Helpers\FinanceHelper::get_user_total_income">get_user_total_income</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#178"><abbr title="App\Helpers\FinanceHelper::get_user_total_expense">get_user_total_expense</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#191"><abbr title="App\Helpers\FinanceHelper::getMonthFinancialYear">getMonthFinancialYear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#214"><abbr title="App\Helpers\FinanceHelper::user_tax_calculation">user_tax_calculation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#322"><abbr title="App\Helpers\FinanceHelper::get_chart_by_supplier">get_chart_by_supplier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#345"><abbr title="App\Helpers\FinanceHelper::get_chart_by_location">get_chart_by_location</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#365"><abbr title="App\Helpers\FinanceHelper::get_chart_by_income_type">get_chart_by_income_type</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#387"><abbr title="App\Helpers\FinanceHelper::get_chart_by_expense_type">get_chart_by_expense_type</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#410"><abbr title="App\Helpers\FinanceHelper::get_employer_finance_cost_chart_data">get_employer_finance_cost_chart_data</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#427"><abbr title="App\Helpers\FinanceHelper::get_employer_finance_jobs_chart_data">get_employer_finance_jobs_chart_data</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#305"><abbr title="App\Helpers\JobMailHelper::sendMembershipExpired">sendMembershipExpired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#1869"><abbr title="App\Helpers\JobMailHelper::sendPackageExpiredMail">sendPackageExpiredMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#1900"><abbr title="App\Helpers\JobMailHelper::sendFreJobSummaryNotification">sendFreJobSummaryNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#1952"><abbr title="App\Helpers\JobMailHelper::calculatestarsaverage_summary">calculatestarsaverage_summary</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#1974"><abbr title="App\Helpers\JobMailHelper::sendEmpJobSummaryNotification">sendEmpJobSummaryNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2065"><abbr title="App\Helpers\JobMailHelper::sendExpireFreezeNotificationPrivateLocum">sendExpireFreezeNotificationPrivateLocum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2091"><abbr title="App\Helpers\JobMailHelper::sendDisputeSubmitNotification">sendDisputeSubmitNotification</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2198"><abbr title="App\Helpers\JobMailHelper::updateProfileMails">updateProfileMails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2228"><abbr title="App\Helpers\JobMailHelper::cancelJobByEmpNotificationToEmployerIFPrivatefreelancer">cancelJobByEmpNotificationToEmployerIFPrivatefreelancer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2274"><abbr title="App\Helpers\JobMailHelper::cancelJobByEmpNotifyToEmployerIFPrivatefreelancer">cancelJobByEmpNotifyToEmployerIFPrivatefreelancer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2321"><abbr title="App\Helpers\JobMailHelper::cancelJobByEmpNotificationToPrivateFreelancer">cancelJobByEmpNotificationToPrivateFreelancer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#59"><abbr title="App\Helpers\JobSmsHelper::sendOnDayNotificationToFreelancerSms">sendOnDayNotificationToFreelancerSms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#150"><abbr title="App\Helpers\JobSmsHelper::afterRegisterdEmpSms">afterRegisterdEmpSms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#228"><abbr title="App\Helpers\JobSmsHelper::sendweeklyReminderToFreelancerSms">sendweeklyReminderToFreelancerSms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#244"><abbr title="App\Helpers\JobSmsHelper::sendweeklyReminderToEmployerSms">sendweeklyReminderToEmployerSms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#312"><abbr title="App\Helpers\JobSmsHelper::sendFeedbackNotificationOneWeekAlertSms">sendFeedbackNotificationOneWeekAlertSms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#369"><abbr title="App\Helpers\JobSmsHelper::sendPackageExpiredMailSms">sendPackageExpiredMailSms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#386"><abbr title="App\Helpers\JobSmsHelper::sendProfileSuspendNotificationToFreelancerSms">sendProfileSuspendNotificationToFreelancerSms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#436"><abbr title="App\Helpers\JobSmsHelper::sendDisputeSubmitNotificationSms">sendDisputeSubmitNotificationSms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MailChimpHelper.php.html#11"><abbr title="App\Helpers\MailChimpHelper::listMembers">listMembers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#11"><abbr title="App\Helpers\PackageUpgradeHelper::insertPaymentInfo">insertPaymentInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#25"><abbr title="App\Helpers\PackageUpgradeHelper::updatePaymentInfo">updatePaymentInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#33"><abbr title="App\Helpers\PackageUpgradeHelper::getExpiryDate">getExpiryDate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#41"><abbr title="App\Helpers\PackageUpgradeHelper::insertPkgDetails">insertPkgDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#48"><abbr title="App\Helpers\PackageUpgradeHelper::updatePackageInfo">updatePackageInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#64"><abbr title="App\Helpers\PackageUpgradeHelper::updateChangePackageInfo">updateChangePackageInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AppNotificationHelper.php.html#13"><abbr title="App\Helpers\AppNotificationHelper::notification">notification</abbr></a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="DistanceCalculateHelper.php.html#9"><abbr title="App\Helpers\DistanceCalculateHelper::getCoordinates">getCoordinates</abbr></a></td><td class="text-right">73%</td></tr>
+       <tr><td><a href="AppNotificationHelper.php.html#86"><abbr title="App\Helpers\AppNotificationHelper::getTokenByID">getTokenByID</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#84"><abbr title="App\Helpers\PackageUpgradeHelper::updatePackageDetailsStatusOnCron">updatePackageDetailsStatusOnCron</abbr></a></td><td class="text-right">78%</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2026"><abbr title="App\Helpers\JobMailHelper::sendExpireFreezeNotification">sendExpireFreezeNotification</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="DistanceCalculateHelper.php.html#63"><abbr title="App\Helpers\DistanceCalculateHelper::getDistance">getDistance</abbr></a></td><td class="text-right">83%</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#135"><abbr title="App\Helpers\JobSmsHelper::bookingConfirmationemp">bookingConfirmationemp</abbr></a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="FinanceHelper.php.html#29"><abbr title="App\Helpers\FinanceHelper::get_chart_finance_data">get_chart_finance_data</abbr></a></td><td class="text-right">1722</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#214"><abbr title="App\Helpers\FinanceHelper::user_tax_calculation">user_tax_calculation</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="AppNotificationHelper.php.html#13"><abbr title="App\Helpers\AppNotificationHelper::notification">notification</abbr></a></td><td class="text-right">69</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2091"><abbr title="App\Helpers\JobMailHelper::sendDisputeSubmitNotification">sendDisputeSubmitNotification</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#1900"><abbr title="App\Helpers\JobMailHelper::sendFreJobSummaryNotification">sendFreJobSummaryNotification</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#312"><abbr title="App\Helpers\JobSmsHelper::sendFeedbackNotificationOneWeekAlertSms">sendFeedbackNotificationOneWeekAlertSms</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="MailChimpHelper.php.html#11"><abbr title="App\Helpers\MailChimpHelper::listMembers">listMembers</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#149"><abbr title="App\Helpers\FinanceHelper::get_user_financial_year_start_month">get_user_financial_year_start_month</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#322"><abbr title="App\Helpers\FinanceHelper::get_chart_by_supplier">get_chart_by_supplier</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#365"><abbr title="App\Helpers\FinanceHelper::get_chart_by_income_type">get_chart_by_income_type</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#387"><abbr title="App\Helpers\FinanceHelper::get_chart_by_expense_type">get_chart_by_expense_type</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#1974"><abbr title="App\Helpers\JobMailHelper::sendEmpJobSummaryNotification">sendEmpJobSummaryNotification</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2198"><abbr title="App\Helpers\JobMailHelper::updateProfileMails">updateProfileMails</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#158"><abbr title="App\Helpers\FinanceHelper::get_user_finance_type">get_user_finance_type</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#191"><abbr title="App\Helpers\FinanceHelper::getMonthFinancialYear">getMonthFinancialYear</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#410"><abbr title="App\Helpers\FinanceHelper::get_employer_finance_cost_chart_data">get_employer_finance_cost_chart_data</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#427"><abbr title="App\Helpers\FinanceHelper::get_employer_finance_jobs_chart_data">get_employer_finance_jobs_chart_data</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#305"><abbr title="App\Helpers\JobMailHelper::sendMembershipExpired">sendMembershipExpired</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#59"><abbr title="App\Helpers\JobSmsHelper::sendOnDayNotificationToFreelancerSms">sendOnDayNotificationToFreelancerSms</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#150"><abbr title="App\Helpers\JobSmsHelper::afterRegisterdEmpSms">afterRegisterdEmpSms</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#228"><abbr title="App\Helpers\JobSmsHelper::sendweeklyReminderToFreelancerSms">sendweeklyReminderToFreelancerSms</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#244"><abbr title="App\Helpers\JobSmsHelper::sendweeklyReminderToEmployerSms">sendweeklyReminderToEmployerSms</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#369"><abbr title="App\Helpers\JobSmsHelper::sendPackageExpiredMailSms">sendPackageExpiredMailSms</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#386"><abbr title="App\Helpers\JobSmsHelper::sendProfileSuspendNotificationToFreelancerSms">sendProfileSuspendNotificationToFreelancerSms</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#436"><abbr title="App\Helpers\JobSmsHelper::sendDisputeSubmitNotificationSms">sendDisputeSubmitNotificationSms</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#166"><abbr title="App\Helpers\FinanceHelper::get_user_total_income">get_user_total_income</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#178"><abbr title="App\Helpers\FinanceHelper::get_user_total_expense">get_user_total_expense</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="FinanceHelper.php.html#345"><abbr title="App\Helpers\FinanceHelper::get_chart_by_location">get_chart_by_location</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#1869"><abbr title="App\Helpers\JobMailHelper::sendPackageExpiredMail">sendPackageExpiredMail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2065"><abbr title="App\Helpers\JobMailHelper::sendExpireFreezeNotificationPrivateLocum">sendExpireFreezeNotificationPrivateLocum</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2228"><abbr title="App\Helpers\JobMailHelper::cancelJobByEmpNotificationToEmployerIFPrivatefreelancer">cancelJobByEmpNotificationToEmployerIFPrivatefreelancer</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2274"><abbr title="App\Helpers\JobMailHelper::cancelJobByEmpNotifyToEmployerIFPrivatefreelancer">cancelJobByEmpNotifyToEmployerIFPrivatefreelancer</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2321"><abbr title="App\Helpers\JobMailHelper::cancelJobByEmpNotificationToPrivateFreelancer">cancelJobByEmpNotificationToPrivateFreelancer</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#48"><abbr title="App\Helpers\PackageUpgradeHelper::updatePackageInfo">updatePackageInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#64"><abbr title="App\Helpers\PackageUpgradeHelper::updateChangePackageInfo">updateChangePackageInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="DistanceCalculateHelper.php.html#9"><abbr title="App\Helpers\DistanceCalculateHelper::getCoordinates">getCoordinates</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="DistanceCalculateHelper.php.html#63"><abbr title="App\Helpers\DistanceCalculateHelper::getDistance">getDistance</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="JobMailHelper.php.html#2026"><abbr title="App\Helpers\JobMailHelper::sendExpireFreezeNotification">sendExpireFreezeNotification</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="JobSmsHelper.php.html#135"><abbr title="App\Helpers\JobSmsHelper::bookingConfirmationemp">bookingConfirmationemp</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="AppNotificationHelper.php.html#86"><abbr title="App\Helpers\AppNotificationHelper::getTokenByID">getTokenByID</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="PackageUpgradeHelper.php.html#84"><abbr title="App\Helpers\PackageUpgradeHelper::updatePackageDetailsStatusOnCron">updatePackageDetailsStatusOnCron</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.0.2</a> using <a href="https://www.php.net/" target="_top">PHP 8.2.2</a> and <a href="https://phpunit.de/">PHPUnit 10.0.16</a> at Sun Jul 23 18:20:35 BST 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=10.0.2" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=10.0.2" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=10.0.2" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([2,0,1,1,0,0,0,1,2,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([45,1,0,0,0,0,0,0,3,3,20,24], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[11.666666666666666,15,"<a href=\"AppNotificationHelper.php.html#10\">App\\Helpers\\AppNotificationHelper<\/a>"],[73.80952380952381,12,"<a href=\"DistanceCalculateHelper.php.html#7\">App\\Helpers\\DistanceCalculateHelper<\/a>"],[0,94,"<a href=\"FinanceHelper.php.html#19\">App\\Helpers\\FinanceHelper<\/a>"],[73.59271523178808,121,"<a href=\"JobMailHelper.php.html#19\">App\\Helpers\\JobMailHelper<\/a>"],[67.67676767676768,77,"<a href=\"JobSmsHelper.php.html#11\">App\\Helpers\\JobSmsHelper<\/a>"],[0,5,"<a href=\"MailChimpHelper.php.html#5\">App\\Helpers\\MailChimpHelper<\/a>"],[20.37037037037037,10,"<a href=\"PackageUpgradeHelper.php.html#9\">App\\Helpers\\PackageUpgradeHelper<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[9.30232558139535,9,"<a href=\"AppNotificationHelper.php.html#13\">App\\Helpers\\AppNotificationHelper::notification<\/a>"],[0,1,"<a href=\"AppNotificationHelper.php.html#73\">App\\Helpers\\AppNotificationHelper::insert_notification_data<\/a>"],[75,2,"<a href=\"AppNotificationHelper.php.html#86\">App\\Helpers\\AppNotificationHelper::getTokenByID<\/a>"],[0,1,"<a href=\"AppNotificationHelper.php.html#95\">App\\Helpers\\AppNotificationHelper::deleteToken<\/a>"],[0,1,"<a href=\"AppNotificationHelper.php.html#100\">App\\Helpers\\AppNotificationHelper::updateTokenStatus<\/a>"],[0,1,"<a href=\"AppNotificationHelper.php.html#107\">App\\Helpers\\AppNotificationHelper::saveResultLog<\/a>"],[73.91304347826086,5,"<a href=\"DistanceCalculateHelper.php.html#9\">App\\Helpers\\DistanceCalculateHelper::getCoordinates<\/a>"],[100,1,"<a href=\"DistanceCalculateHelper.php.html#51\">App\\Helpers\\DistanceCalculateHelper::getLatitude<\/a>"],[100,1,"<a href=\"DistanceCalculateHelper.php.html#57\">App\\Helpers\\DistanceCalculateHelper::getLongitude<\/a>"],[83.33333333333334,4,"<a href=\"DistanceCalculateHelper.php.html#63\">App\\Helpers\\DistanceCalculateHelper::getDistance<\/a>"],[0,1,"<a href=\"DistanceCalculateHelper.php.html#83\">App\\Helpers\\DistanceCalculateHelper::getDistanceFromAddress<\/a>"],[0,1,"<a href=\"FinanceHelper.php.html#23\">App\\Helpers\\FinanceHelper::__construct<\/a>"],[0,41,"<a href=\"FinanceHelper.php.html#29\">App\\Helpers\\FinanceHelper::get_chart_finance_data<\/a>"],[0,4,"<a href=\"FinanceHelper.php.html#149\">App\\Helpers\\FinanceHelper::get_user_financial_year_start_month<\/a>"],[0,3,"<a href=\"FinanceHelper.php.html#158\">App\\Helpers\\FinanceHelper::get_user_finance_type<\/a>"],[0,2,"<a href=\"FinanceHelper.php.html#166\">App\\Helpers\\FinanceHelper::get_user_total_income<\/a>"],[0,2,"<a href=\"FinanceHelper.php.html#178\">App\\Helpers\\FinanceHelper::get_user_total_expense<\/a>"],[0,3,"<a href=\"FinanceHelper.php.html#191\">App\\Helpers\\FinanceHelper::getMonthFinancialYear<\/a>"],[0,18,"<a href=\"FinanceHelper.php.html#214\">App\\Helpers\\FinanceHelper::user_tax_calculation<\/a>"],[0,4,"<a href=\"FinanceHelper.php.html#322\">App\\Helpers\\FinanceHelper::get_chart_by_supplier<\/a>"],[0,2,"<a href=\"FinanceHelper.php.html#345\">App\\Helpers\\FinanceHelper::get_chart_by_location<\/a>"],[0,4,"<a href=\"FinanceHelper.php.html#365\">App\\Helpers\\FinanceHelper::get_chart_by_income_type<\/a>"],[0,4,"<a href=\"FinanceHelper.php.html#387\">App\\Helpers\\FinanceHelper::get_chart_by_expense_type<\/a>"],[0,3,"<a href=\"FinanceHelper.php.html#410\">App\\Helpers\\FinanceHelper::get_employer_finance_cost_chart_data<\/a>"],[0,3,"<a href=\"FinanceHelper.php.html#427\">App\\Helpers\\FinanceHelper::get_employer_finance_jobs_chart_data<\/a>"],[100,1,"<a href=\"JobMailHelper.php.html#23\">App\\Helpers\\JobMailHelper::__construct<\/a>"],[92.85714285714286,3,"<a href=\"JobMailHelper.php.html#28\">App\\Helpers\\JobMailHelper::sendCloseJobNotification<\/a>"],[95.65217391304348,3,"<a href=\"JobMailHelper.php.html#68\">App\\Helpers\\JobMailHelper::sendFeedbackNotification<\/a>"],[96,2,"<a href=\"JobMailHelper.php.html#127\">App\\Helpers\\JobMailHelper::sendOnDayNotificationToFreelancer<\/a>"],[95.65217391304348,2,"<a href=\"JobMailHelper.php.html#184\">App\\Helpers\\JobMailHelper::sendPrivateJobOnDayReminder<\/a>"],[96,3,"<a href=\"JobMailHelper.php.html#226\">App\\Helpers\\JobMailHelper::sendOnDayRemindertoprivateuser<\/a>"],[100,2,"<a href=\"JobMailHelper.php.html#279\">App\\Helpers\\JobMailHelper::sendExpenseNotification<\/a>"],[0,3,"<a href=\"JobMailHelper.php.html#305\">App\\Helpers\\JobMailHelper::sendMembershipExpired<\/a>"],[100,1,"<a href=\"JobMailHelper.php.html#331\">App\\Helpers\\JobMailHelper::getJobInfo<\/a>"],[95.83333333333334,2,"<a href=\"JobMailHelper.php.html#365\">App\\Helpers\\JobMailHelper::sendOnDayNotificationToEmployer<\/a>"],[96.42857142857143,5,"<a href=\"JobMailHelper.php.html#417\">App\\Helpers\\JobMailHelper::recievedFeedbackEmployerNotification<\/a>"],[100,3,"<a href=\"JobMailHelper.php.html#505\">App\\Helpers\\JobMailHelper::calculatestars<\/a>"],[100,1,"<a href=\"JobMailHelper.php.html#524\">App\\Helpers\\JobMailHelper::calculatestarsaverage<\/a>"],[96.49122807017544,5,"<a href=\"JobMailHelper.php.html#543\">App\\Helpers\\JobMailHelper::recievedFeedbackFreelancerNotification<\/a>"],[93.61702127659575,12,"<a href=\"JobMailHelper.php.html#638\">App\\Helpers\\JobMailHelper::sendAcceptMailToUser<\/a>"],[96.7741935483871,7,"<a href=\"JobMailHelper.php.html#1045\">App\\Helpers\\JobMailHelper::sendAcceptMailToPrivateUser<\/a>"],[97.05882352941177,3,"<a href=\"JobMailHelper.php.html#1290\">App\\Helpers\\JobMailHelper::cancelJobByFreNotificationToFreelancer<\/a>"],[94.28571428571428,3,"<a href=\"JobMailHelper.php.html#1348\">App\\Helpers\\JobMailHelper::cancelJobByFreNotificationToEmployer<\/a>"],[95.83333333333334,2,"<a href=\"JobMailHelper.php.html#1395\">App\\Helpers\\JobMailHelper::cancelJobByFreNotificationToAdmin<\/a>"],[96.55172413793103,2,"<a href=\"JobMailHelper.php.html#1442\">App\\Helpers\\JobMailHelper::cancelJobByEmpNotificationToFreelancer<\/a>"],[96.7741935483871,2,"<a href=\"JobMailHelper.php.html#1482\">App\\Helpers\\JobMailHelper::cancelJobByEmpNotificationToEmployer<\/a>"],[95.83333333333334,2,"<a href=\"JobMailHelper.php.html#1529\">App\\Helpers\\JobMailHelper::cancelJobByEmpNotificationToAdmin<\/a>"],[93.75,5,"<a href=\"JobMailHelper.php.html#1578\">App\\Helpers\\JobMailHelper::sendFeedbackNotificationOneWeekAlert<\/a>"],[93.10344827586206,7,"<a href=\"JobMailHelper.php.html#1643\">App\\Helpers\\JobMailHelper::sendReminder<\/a>"],[95.45454545454545,2,"<a href=\"JobMailHelper.php.html#1750\">App\\Helpers\\JobMailHelper::sendPrivateJobReminder<\/a>"],[94.5945945945946,5,"<a href=\"JobMailHelper.php.html#1794\">App\\Helpers\\JobMailHelper::sendRemindertoprivateuser<\/a>"],[0,2,"<a href=\"JobMailHelper.php.html#1869\">App\\Helpers\\JobMailHelper::sendPackageExpiredMail<\/a>"],[0,5,"<a href=\"JobMailHelper.php.html#1900\">App\\Helpers\\JobMailHelper::sendFreJobSummaryNotification<\/a>"],[0,1,"<a href=\"JobMailHelper.php.html#1952\">App\\Helpers\\JobMailHelper::calculatestarsaverage_summary<\/a>"],[0,4,"<a href=\"JobMailHelper.php.html#1974\">App\\Helpers\\JobMailHelper::sendEmpJobSummaryNotification<\/a>"],[81.48148148148148,3,"<a href=\"JobMailHelper.php.html#2026\">App\\Helpers\\JobMailHelper::sendExpireFreezeNotification<\/a>"],[0,2,"<a href=\"JobMailHelper.php.html#2065\">App\\Helpers\\JobMailHelper::sendExpireFreezeNotificationPrivateLocum<\/a>"],[0,6,"<a href=\"JobMailHelper.php.html#2091\">App\\Helpers\\JobMailHelper::sendDisputeSubmitNotification<\/a>"],[0,4,"<a href=\"JobMailHelper.php.html#2198\">App\\Helpers\\JobMailHelper::updateProfileMails<\/a>"],[0,2,"<a href=\"JobMailHelper.php.html#2228\">App\\Helpers\\JobMailHelper::cancelJobByEmpNotificationToEmployerIFPrivatefreelancer<\/a>"],[0,2,"<a href=\"JobMailHelper.php.html#2274\">App\\Helpers\\JobMailHelper::cancelJobByEmpNotifyToEmployerIFPrivatefreelancer<\/a>"],[0,2,"<a href=\"JobMailHelper.php.html#2321\">App\\Helpers\\JobMailHelper::cancelJobByEmpNotificationToPrivateFreelancer<\/a>"],[100,1,"<a href=\"JobSmsHelper.php.html#13\">App\\Helpers\\JobSmsHelper::send_sms<\/a>"],[100,1,"<a href=\"JobSmsHelper.php.html#32\">App\\Helpers\\JobSmsHelper::insertSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#41\">App\\Helpers\\JobSmsHelper::sendReminderSms<\/a>"],[0,3,"<a href=\"JobSmsHelper.php.html#59\">App\\Helpers\\JobSmsHelper::sendOnDayNotificationToFreelancerSms<\/a>"],[100,4,"<a href=\"JobSmsHelper.php.html#76\">App\\Helpers\\JobSmsHelper::jobInvitationFreeSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#100\">App\\Helpers\\JobSmsHelper::jobInvitationemployerSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#118\">App\\Helpers\\JobSmsHelper::bookingConfirmationfre<\/a>"],[85.71428571428571,3,"<a href=\"JobSmsHelper.php.html#135\">App\\Helpers\\JobSmsHelper::bookingConfirmationemp<\/a>"],[0,3,"<a href=\"JobSmsHelper.php.html#150\">App\\Helpers\\JobSmsHelper::afterRegisterdEmpSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#162\">App\\Helpers\\JobSmsHelper::cancelJobByEmpNotificationToFreelancerSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#179\">App\\Helpers\\JobSmsHelper::cancelJobByEmpNotificationToEmployerSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#195\">App\\Helpers\\JobSmsHelper::cancelJobByFreNotificationToFreelancerSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#212\">App\\Helpers\\JobSmsHelper::cancelJobByFreNotificationToEmployerSms<\/a>"],[0,3,"<a href=\"JobSmsHelper.php.html#228\">App\\Helpers\\JobSmsHelper::sendweeklyReminderToFreelancerSms<\/a>"],[0,3,"<a href=\"JobSmsHelper.php.html#244\">App\\Helpers\\JobSmsHelper::sendweeklyReminderToEmployerSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#262\">App\\Helpers\\JobSmsHelper::sendOnDayNotificationToEmployerSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#279\">App\\Helpers\\JobSmsHelper::sendFeedbackNotificationFreSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#296\">App\\Helpers\\JobSmsHelper::sendFeedbackNotificationEmpSms<\/a>"],[0,5,"<a href=\"JobSmsHelper.php.html#312\">App\\Helpers\\JobSmsHelper::sendFeedbackNotificationOneWeekAlertSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#336\">App\\Helpers\\JobSmsHelper::recievedFeedbackFreelancerNotificationSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#353\">App\\Helpers\\JobSmsHelper::recievedFeedbackEmployerNotificationSms<\/a>"],[0,3,"<a href=\"JobSmsHelper.php.html#369\">App\\Helpers\\JobSmsHelper::sendPackageExpiredMailSms<\/a>"],[0,3,"<a href=\"JobSmsHelper.php.html#386\">App\\Helpers\\JobSmsHelper::sendProfileSuspendNotificationToFreelancerSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#403\">App\\Helpers\\JobSmsHelper::sendExpireFreezeNotificationSms<\/a>"],[100,3,"<a href=\"JobSmsHelper.php.html#420\">App\\Helpers\\JobSmsHelper::sendExpenseNotificationSms<\/a>"],[0,3,"<a href=\"JobSmsHelper.php.html#436\">App\\Helpers\\JobSmsHelper::sendDisputeSubmitNotificationSms<\/a>"],[0,5,"<a href=\"MailChimpHelper.php.html#11\">App\\Helpers\\MailChimpHelper::listMembers<\/a>"],[0,1,"<a href=\"PackageUpgradeHelper.php.html#11\">App\\Helpers\\PackageUpgradeHelper::insertPaymentInfo<\/a>"],[0,1,"<a href=\"PackageUpgradeHelper.php.html#25\">App\\Helpers\\PackageUpgradeHelper::updatePaymentInfo<\/a>"],[0,1,"<a href=\"PackageUpgradeHelper.php.html#33\">App\\Helpers\\PackageUpgradeHelper::getExpiryDate<\/a>"],[0,1,"<a href=\"PackageUpgradeHelper.php.html#41\">App\\Helpers\\PackageUpgradeHelper::insertPkgDetails<\/a>"],[0,2,"<a href=\"PackageUpgradeHelper.php.html#48\">App\\Helpers\\PackageUpgradeHelper::updatePackageInfo<\/a>"],[0,2,"<a href=\"PackageUpgradeHelper.php.html#64\">App\\Helpers\\PackageUpgradeHelper::updateChangePackageInfo<\/a>"],[78.57142857142857,2,"<a href=\"PackageUpgradeHelper.php.html#84\">App\\Helpers\\PackageUpgradeHelper::updatePackageDetailsStatusOnCron<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
